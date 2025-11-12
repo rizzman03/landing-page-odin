@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 0.7rem;
+}
+
+div.header-logo {
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+div.header-navigation ul {
+    display: flex;
+    gap: 2rem;
+    color: #f9faf8;
+    font-weight: 700;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+/*main {
+    display: flex;
+}*/
+
+div.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10rem;
+    background-color: #1f2937;
+}
+
+div.text-hero {
+    width: 40%;
+}
+
+div.text-hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+div.text-hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+div.text-hero button {
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 11.5px;
+    color: #f9f9f9;
+    background-color: #3882f6;
+    margin-top: 10px;
+}
+
+div.image-hero img {
+    border-radius: 11.5px;
+    width: 500px;
+    object-fit: cover;
+    object-position: cover;
+}
+
+/*
+random information
+*/
+
+div.random-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    height: 50vh;
+    justify-content: center;
+}
+
+div.random-information div.image-information {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+}
+
+div.random-information div.image-information img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: cover;
+    border-radius: 11.5px;
+    border: 3px solid #3882f6;
+}
+
+div.random-information div.image-information p {
+    font-weight: bold;
+}
+
+/*
+Quote
+*/
+
+div.quote {
+    width: 100%;
+}
+
+div.quote div.container-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 50vh;
+    gap: 2rem;
+}
+
+div.quote p i {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+div.quote p.luffy {
+    font-size: 24px;
+    width: 50%;
+    align-self: self-end;
+    font-weight: bold;
+}
+
+/*
+Blue action
+*/
+
+div.action {
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div.blue-action {
+    display: flex;
+    width: 60%;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    color: #e5e7eb;
+    border-radius: 11.5px;
+}
+
+div.blue-action-text p.anime{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div.blue-action button {
+    border: 3px solid #f9f9f9;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 11.5px;
+    color: #f9f9f9;
+    background-color: #3882f6;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    background-color: #1f2937;
+    color: #f9f9f9;
+}
